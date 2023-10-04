@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all-container{
+    background: bisque;
+    width: 960px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 10px solid black;
+
+}
+.top-section{
+    display: flex;
+    justify-content: space-between; 
+    align-items: end;
+}
+.img, .basic-info{
+    margin-top: 50px;
+
+}
+#img-1{
+    border-radius: 70%;
+    width: 400px;
+    height: 400px;
+}
+.basic-info {
+    text-align: right;
+}
+.detaiels1{
+    text-decoration: underline;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 40px;
+    color: indianred;
+    
+}
+.detailes {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 25px;
+}
